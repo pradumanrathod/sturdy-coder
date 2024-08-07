@@ -1,17 +1,8 @@
-TOMATO: A food delivery website,
-It is an online food delivery website , which helps the customers to order food comfortably without much hassle.
+# React + Vite
 
-Description:
-This is a simple React application that showcases basic React components and styling. The project includes a main application file, a CSS file for styling,
-and a main entry point for rendering the React components.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Project Structure
-App.jsx: Main application file containing React components and application logic.
-App.css: CSS file with styles for the application, including styles for the root container, logo, and cards.
-main.jsx: Entry point of the application where the React components are rendered to the DOM.
+Currently, two official plugins are available:
 
-Features
-Responsive Design: The application is designed to be responsive and works well on different screen sizes.
-Interactive Logo: The logo has a hover effect.
-Styling: Includes custom styles for various elements such as the root container, logos, and cards.
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
